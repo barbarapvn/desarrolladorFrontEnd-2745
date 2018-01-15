@@ -18,6 +18,12 @@ Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos
 
 La idea es que hagan un fork de este repositorio siguiendo estos pasos, para que puedan subir sus cambios y a su vez poder actualizar los que yo haga:
 
+1. Hacer un fork del repo en mi git local
+2. Clonar el repositorio en maquina local
+git remote -v
+3. git remote add profe https://github.com/adrianc4/desarrolladorFrontEnd-2745.git
+4. git remote -v 
+5. git pull origin master 
 ...
 
 Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio va a ser siempre el mismo para que no sea un lío. 🤓
