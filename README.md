@@ -16,15 +16,14 @@ Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos
 
   * **Desafío**: Acá pueden hacer la resolución del desafío, también en algunos casos les voy a subir parte del ejercicio para que solo tengan que completar una parte.
 
-La idea es que hagan un fork de este repositorio siguiendo estos pasos, para que puedan subir sus cambios y a su vez poder actualizar los que yo haga:
+Para poder trabajar cada uno en su maquina y mantenerse actualizados con lo que suba, la idea es que hagan un Fork de este repositorio siguiendo estos pasos:
 
-1. Hacer un fork del repo en mi git local
-2. Clonar el repositorio en maquina local
-git remote -v
-3. git remote add profe https://github.com/adrianc4/desarrolladorFrontEnd-2745.git
-4. git remote -v 
-5. git pull origin master 
-...
+1. Hagan un Fork del repositorio en su GitHub.
+2. Clonen el repositorio en su maquina local usando el comando `git clone https://github.com/adrianc4/desarrolladorFrontEnd-2745.git`.
+3. Luego ejecuten el comando `git remote add profe https://github.com/adrianc4/desarrolladorFrontEnd-2745.git` para vincular su repo con el mio.
+4. Verifiquen que tienen agregados los dos origines con el comando `git remote -v`.
+5. Hagan un `git pull origin master`
+6. Cada vez que quieran actualizar el repositorio con lo que subí hagan un `git pull profe master`.
 
 Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio va a ser siempre el mismo para que no sea un lío. 🤓
 
