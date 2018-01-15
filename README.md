@@ -2,7 +2,7 @@
 
 Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el número de la clase y adentro van a encontrar:
 
-- Una carpeta **Profe** que va a contener todo lo que yo voy escribiendo en cada clase, separado a su vez en las siguientes carpetas en las cuales van a encontrar:
+- Una carpeta **Profe** que va a contener todo lo que yo voy escribiendo en cada clase, separado a su vez en las siguientes carpetas:
 
   * **En clase**: Todo lo que voy escribiendo en la clase así que no es necesario tomar apuntes, este contenido se los voy a subir después de cada explicación teórica para que lo tengan disponible en los ejercicios y desafíos.
 
@@ -10,7 +10,7 @@ Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos
 
   * **Desafío**: La resolución hecha por mi del desafío que tiene para resolver en casa, normalmente esta resolución la explico y la subo al comienzo de la clase siguiente.
 
-- Una carpeta **Alumno** que es para que la utilicen ustedes y que contiene dos carpetas:
+- Una carpeta **Alumno** que es para que la utilicen ustedes y que puede contener las siguientes carpetas:
 
   * **Ejercicio**: Acá pueden hacer la resolución del ejercicio planteado en clase, en algunos casos les voy a subir parte del ejercicio para que solo tengan que completar una parte.
 
@@ -19,7 +19,7 @@ Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos
 Para poder trabajar cada uno en su maquina y mantenerse actualizados con lo que suba, la idea es que hagan un Fork de este repositorio siguiendo estos pasos:
 
 1. Hagan un Fork del repositorio en su GitHub.
-2. Clonen el repositorio en su maquina local usando el comando `git clone https://github.com/adrianc4/desarrolladorFrontEnd-2745.git`.
+2. Clonen el repositorio en su maquina local usando el comando `git clone <URL del repositorio en su GitHub>`.
 3. Entren al repositorio haciendo `cd desarrolladorFrontEnd-2745`. 
 4. Luego ejecuten el comando `git remote add profe https://github.com/adrianc4/desarrolladorFrontEnd-2745.git` para vincular su repo con el mio.
 5. Verifiquen que tienen agregados los dos origines con el comando `git remote -v`.
