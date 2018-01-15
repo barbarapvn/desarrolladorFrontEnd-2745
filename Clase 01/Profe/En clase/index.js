@@ -5,7 +5,7 @@
 // 3. Hoisting
 // 4. Event loop y Sync / Async
 // 5. Para que sirve this
-// 6. Un breve repaso de objetos
+// 6. Un breve repaso de objetos en JS
 
 // Nuevo en ES6:
 
