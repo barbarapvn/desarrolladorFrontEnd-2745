@@ -14,6 +14,6 @@
 1. Let
 2. Const
 3. Valores por defecto
-4. Arrow functions y this
-5. String templates
-6. Property Shorthand
+4. String templates
+5. Property Shorthand
+6. Arrow functions y this

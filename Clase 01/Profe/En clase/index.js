@@ -12,6 +12,6 @@
 // 1. Let
 // 2. Const
 // 3. Default Parameter Values
-// 4. Arrow functions
-// 5. String templates
-// 6. Property Shorthand
+// 4. String templates
+// 5. Property Shorthand
+// 6. Arrow functions
