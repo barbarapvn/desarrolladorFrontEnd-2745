@@ -20,10 +20,11 @@ Para poder trabajar cada uno en su maquina y mantenerse actualizados con lo que 
 
 1. Hagan un Fork del repositorio en su GitHub.
 2. Clonen el repositorio en su maquina local usando el comando `git clone https://github.com/adrianc4/desarrolladorFrontEnd-2745.git`.
-3. Luego ejecuten el comando `git remote add profe https://github.com/adrianc4/desarrolladorFrontEnd-2745.git` para vincular su repo con el mio.
-4. Verifiquen que tienen agregados los dos origines con el comando `git remote -v`.
-5. Hagan un `git pull origin master`
+3. Entren al repositorio haciendo `cd desarrolladorFrontEnd-2745`. 
+4. Luego ejecuten el comando `git remote add profe https://github.com/adrianc4/desarrolladorFrontEnd-2745.git` para vincular su repo con el mio.
+5. Verifiquen que tienen agregados los dos origines con el comando `git remote -v`.
 6. Cada vez que quieran actualizar el repositorio con lo que subí hagan un `git pull profe master`.
+7. Para subir sus cambios usen los mismos comandos que usan siempre `git add .`, `git commit -m '<Comentario>'` y `git push`, los cambios solo se van a subir en su repositorio de GitHub.
 
 Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio va a ser siempre el mismo para que no sea un lío. 🤓
 
