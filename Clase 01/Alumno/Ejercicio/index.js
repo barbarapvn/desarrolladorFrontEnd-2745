@@ -6,29 +6,31 @@
 // isAdmin Boolean (Valor por defecto false)
 // telephones Array (Valor por defecto Array vacío)
 
-// function User(firstName, age, isAdmin, telephones) {
-//   this.showName = function () {
-//     return firstName
-//   }
-//   this.showAge = function () {
-//     return age
-//   }
-// }
 
-// var usuario = new User('Pedro', 18, false)
+function User(firstName, age, isAdmin = false, telephones = []) {
+  this.addPhone = function (phone) {
+    telephones.push(phone)
+  }
+  this.show = function () {
+    let stringTelephones = ''
 
-// console.log(usuario.showName())
-// console.log(usuario.showAge())
+    for (let i = 0; i < telephones.length; i++) {
+      const tel = telephones[i].number
+      stringTelephones = `${stringTelephones}, ${tel}`
+    }
 
-// // Una función publica que permita agregar teléfonos al usuario. // con push
+    console.log(`Nombre: ${firstName}, age: ${age}, Teléfonos: ${stringTelephones}`)
+  }
 
-// // Una función publica que permita mostrar todas las propiedades del usuario en consola, mostrando los campos firstName, lastName y telephones en el mismo String.
+  this.showIsAdmin = function () {
+    console.log(isAdmin)
+  }
+}
 
-// function showUser(usuario) {
-//   console.log(usuario.showName(), usuario.showAge())
-// }
+const student = new User('Barbara', 30, true, [{ number: 876876 }])
 
-// showUser(usuario)
+student.addPhone({ number: 1177228833 })
 
-// resolución
+console.log(student.firstName)
 
+student.show()
