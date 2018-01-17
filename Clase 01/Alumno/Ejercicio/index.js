@@ -17,20 +17,19 @@ function User(firstName, age, isAdmin = false, telephones = []) {
     for (let i = 0; i < telephones.length; i++) {
       const tel = telephones[i].number
       stringTelephones = `${stringTelephones}, ${tel}`
+
+      console.log(`Nombre: ${firstName}, age: ${age}, Teléfonos: ${stringTelephones}`)
     }
 
-    console.log(`Nombre: ${firstName}, age: ${age}, Teléfonos: ${stringTelephones}`)
+    this.showIsAdmin = function () {
+      console.log(isAdmin)
+    }
   }
 
-  this.showIsAdmin = function () {
-    console.log(isAdmin)
-  }
-}
+  const student = new User('Barbara', 30, true, [{ number: 876876 }])
 
-const student = new User('Barbara', 30, true, [{ number: 876876 }])
+  student.addPhone({ number: 1177228833 })
 
-student.addPhone({ number: 1177228833 })
+  console.log(student.firstName)
 
-console.log(student.firstName)
-
-student.show()
+  student.show()
