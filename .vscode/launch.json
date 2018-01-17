@@ -8,7 +8,32 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
+<<<<<<< HEAD
       "program": "${workspaceFolder}/Clase 01/Alumno/Ejercicio/index.js"
     }
+=======
+      "program": "${workspaceFolder}/Clase 02/Profe/En clase/index.js"
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach by Process ID",
+      "processId": "${command:PickProcess}"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+{
+  "type": "chrome",
+  "request": "attach",
+  "name": "Attach to Chrome",
+  "port": 9222,
+  "webRoot": "${workspaceFolder}"
+}
+>>>>>>> 42da1f257b6311a03d5bd1f14ef4213e62539ed8
   ]
 }
