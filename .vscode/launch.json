@@ -8,6 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
+<<<<<<< HEAD
       "program": "${workspaceFolder}/Clase 02/Alumno/Ejercicio/index.js"
     },
     {
@@ -29,6 +30,9 @@
       "name": "Attach to Chrome",
       "port": 9222,
       "webRoot": "${workspaceFolder}"
+=======
+      "program": "${file}"
+>>>>>>> 7aedcbb96c74a915ca08334ca688ba6c62a66c1c
     }
   ]
 }
